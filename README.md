@@ -1,3 +1,6 @@
+
+## Please add below code
+```
 module "rds" {
     source = "Matii84/rds-instance/aws"
     region              = "us-east-2"
@@ -33,11 +36,3 @@ output "rds" {
 	value = module.rds.DB_NAME
 }
 ```
-
-
-
-
-
-
-
-
